@@ -1,0 +1,25 @@
+#addEvent {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#eventButton {
+    max-width: 200px;
+    margin-top: 10 px;
+}
+
+#event_name, #location, #description, #date {
+    margin: 3px;
+}
+
+li {
+    flex: 1 1 300px;
+    max-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
