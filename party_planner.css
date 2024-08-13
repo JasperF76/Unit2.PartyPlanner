@@ -5,8 +5,9 @@
 }
 
 #eventButton {
-    max-width: 200px;
+    max-width: 150px;
     margin-top: 10 px;
+    margin-left: 13px;
 }
 
 #event_name, #location, #description, #date {
@@ -22,4 +23,8 @@ li {
     border-radius: 5px;
     overflow: auto;
   }
-  
+
+  label {
+    max-width: 100px;
+    margin-left: 10px;
+  }
